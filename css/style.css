@@ -17,10 +17,6 @@
   .content{
     flex: 1 0 auto;
   }
-  img {
-      border-radius: 45px;
-      width: 120px;
-  }
 
 .intro-box{
     background-color: #ffffff;
@@ -70,18 +66,43 @@
 	box-shadow: 3px 3px 10px #888888;
 }
 
-.app-header .container {
-	display: flex;
-	align-items: center;
+.app-header .container ul li {
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  padding: 15px 10px;
 }
 
 .app-header ul li{
   list-style-type: none;
 }
 
+.app-header .profile{
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 70px;
+}
 
+.app-header img{
+  width: 70px;
+  height: 70px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  background-color: white;
+  padding: 0 auto;
+}
+
+.app-header ul li h3{
+  font-size: 35px;
+  padding: 10px 0;
+  }
+
+  ul {
+    padding-left: 0;
+  }
+  
 
 .app-footer {
 	flex-shrink: 0;
