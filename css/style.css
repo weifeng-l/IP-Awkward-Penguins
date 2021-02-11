@@ -5,98 +5,105 @@
     font-family: 'Poppins', sans-serif;
   } 
   
+  html,body{
+    height: 100%;
+  }
+
   body{
       background-color: #EA6F5F;
+      display: flex;
+      flex-direction: column;
+  }
+  .content{
+    flex: 1 0 auto;
   }
   img {
       border-radius: 45px;
       width: 120px;
-      
   }
-  nav{
-    display: flex;
-    height: 140px;
-    width: 100%;
-    background: #4CD6E7;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 50px 0 100px;
-    flex-wrap: wrap;
-  }
-  nav ul{
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-  }
-  nav ul li{
-    margin: 0 5px;
-  }
-  nav ul li a{
-    color: #f2f2f2;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 8px 15px;
+
+.intro-box{
+    background-color: #ffffff;
+    width: 90%;
+    height: 90px;
+    margin: 40px auto;
+    padding: 10px;
     border-radius: 5px;
-    letter-spacing: 1px;
-    transition: all 0.3s ease;
-  }
-  nav ul li a.active,
-  nav ul li a:hover{
-    color: #111;
-    background: #fff;
-  }
-  nav .menu-btn i{
-    color: #fff;
-    font-size: 22px;
-    cursor: pointer;
-    display: none;
-  }
-  input[type="checkbox"]{
-    display: none;
-  }
-  @media (max-width: 1000px){
-    nav{
-      padding: 0 40px 0 50px;
-    }
-  }
-  @media (max-width: 920px) {
-    nav .menu-btn i{
-      display: block;
-    }
-    #click:checked ~ .menu-btn i:before{
-      content: "\f00d";
-    }
-    nav ul{
-      position: fixed;
-      top: 140px;
-      left: -100%;
-      background: #4CD6E7;
-      height: 100vh;
-      width: 100%;
-      text-align: center;
-      display: block;
-      transition: all 0.2s ease;
-    }
-    #click:checked ~ ul{
-      left: 0;
-    }
-    nav ul li{
-      width: 100%;
-      margin: 40px 0;
-    }
-    nav ul li a{
-      width: 100%;
-      margin-left: -100%;
-      display: block;
-      font-size: 20px;
-    }
-    #click:checked ~ ul li a{
-      margin-left: 0px;
-    }
-    nav ul li a.active,
-    nav ul li a:hover{
-      background: none;
-      color: #EA6F5F;
-    }
+}
+
+.intro-box h3{
+    font-size: 10px;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 15px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.mission-box{
+    background-color: #ffffff;
+    width: 90%;
+    height: 140px;
+    margin: 40px auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.mission-box h3{
+    font-size: 10px;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 15px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	overflow: none;
+	padding: 10px;
+}
+
+.app-header {
+	background: #4CD6E7;
+	box-shadow: 3px 3px 10px #888888;
+}
+
+.app-header .container {
+	display: flex;
+	align-items: center;
+  justify-content: space-between;
+  padding: 15px 10px;
+}
+
+.app-header ul li{
+  list-style-type: none;
+}
+
+
+
+.app-footer {
+	flex-shrink: 0;
+	background: #f4f4f4;
+	color: #444;
+	padding: 10px;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+.app-footer ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.app-footer ul li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.app-footer ul li i {
+	font-size: 22px;
 }
