@@ -109,7 +109,7 @@ font-family: 'Devonshire', cursive;
 }
 .answer{
   max-height: 0;
-  overflow: hidden;
+  overflow: scroll;
   position: relative;
   background-color: #56575a;
   transition: max-height 650ms;

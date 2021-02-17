@@ -28,17 +28,61 @@
                     <li>
                         <h3>Covid-Hub</h3>
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="\html\login.html"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+                            <li><a href="\html\login.html"><span class="glyphicon glyphicon-user"></span> Profile</a>
+                            </li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </header>
 
-        <div class="container-info">
-            <h3>rewards</h3>
+        <div class="container-reward">
+            <div class="wrapper">
+                <div class="title-text">
+                    <div class="title shop" id="myshop">
+                        shop</div>
+                    <div class="title mine">
+                        My Wallet</div>
+                </div>
+                <div class="form-container">
+                    <div class="slide-controls">
+                        <input type="radio" name="slide" id="shop" checked>
+                        <input type="radio" name="slide" id="mine">
+                        <label for="shop" class="slide shop">Shop</label>
+                        <label for="mine" class="slide mine">Wallet</label>
+                        <div class="slider-tab">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="choice">
+                        <br>
+                        <img src="face mask.jpg" class="img-thumbnail" alt="Masks">
+                        <p> 50pc face mask</p>
+                        <div class="btn-layer">
+                        </div>
+                        <input type="submit" value="Redeem">
+                    </div>
+                    <div class="choice">
+                        <br>
+                        <img src="sanitizer.jpg" class="img-thumbnail" alt="Masks">
+                        <p> small hand sanitizer</p>
+                        <div class="btn-layer">
+                        </div>
+                        <input type="submit" value="Redeem">
+                    </div>
+                    <div class="choice">
+                        <br>
+                        <img src="wipes.jpg" class="img-thumbnail" alt="Masks">
+                        <p> wet wipes</p>
+                        <div class="btn-layer">
+                        </div>
+                        <input type="submit" value="Redeem">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
 
     <footer class="app-footer">
         <ul>
@@ -73,5 +117,6 @@
     crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="\js\reward.js"></script>
 
 </html>
