@@ -38,6 +38,16 @@ font-family: 'Devonshire', cursive;
   margin: auto -15px;
 }
 
+.live{
+  padding-left: 150px;
+  margin-top: 20px;  
+}
+
+.data .live a{
+  border: 2px solid #fff;
+  background: white;
+}
+
 .content .container-news{
     width: 80%;
     height: 100px;
