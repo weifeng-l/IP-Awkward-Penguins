@@ -1,12 +1,12 @@
 const rewardText = document.querySelector("#myshop");
-const loginForm = document.querySelector("div.choice");
-const loginBtn = document.querySelector("label.shop");
-const signupBtn = document.querySelector("label.mine");
-signupBtn.onclick = (()=>{
-  loginForm.style.marginLeft = "-50%";
+const shopForm = document.querySelector(".selection");
+const shopBtn = document.querySelector("label.shop");
+const mineBtn = document.querySelector("label.mine");
+mineBtn.onclick = (()=>{
+  shopForm.style.marginLeft = "-250%";
   rewardText.style.marginLeft = "-50%";
 });
-loginBtn.onclick = (()=>{
-  loginForm.style.marginLeft = "0%";
+shopBtn.onclick = (()=>{
+  shopForm.style.marginLeft = "0%";
   rewardText.style.marginLeft = "0%";
 });
