@@ -181,3 +181,7 @@ input[type="submit"]{
   background: -webkit-linear-gradient(left, #a445b2, #fa4299);
   border-radius: 5px;
 }
+
+input[type=radio]{
+  display: none;
+}
