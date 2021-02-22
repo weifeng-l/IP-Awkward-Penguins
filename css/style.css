@@ -76,6 +76,17 @@ font-family: 'Devonshire', cursive;
   box-shadow: 3px 3px 10px #888888;
 }
 
+.content .container-info p, .content .container-mission p, .content .container-who p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50%;
+  width: 80%;
+  font-size: 4px;
+  overflow: scroll;
+}
+
 .app-footer {
 flex-shrink: 0;
 background: #f4f4f4;
