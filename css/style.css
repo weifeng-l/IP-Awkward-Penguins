@@ -45,7 +45,7 @@ font-family: 'Devonshire', cursive;
     flex-direction: column;
     margin: 40px auto;
     background-color: white;
-    border: 2px solid white;
+    border: 2px solid #f4f4f4;
     border-radius: 10px;
     box-shadow: 3px 3px 10px #888888;
 }
