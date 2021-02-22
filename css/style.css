@@ -38,11 +38,13 @@ font-family: 'Devonshire', cursive;
   margin: auto -15px;
 }
 
+
+
 .content .container-info{
     width: 80%;
     justify-content: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 40px auto;
     background-color: white;
     border: 2px solid white;
@@ -52,10 +54,9 @@ font-family: 'Devonshire', cursive;
 
 .content .container-mission{
   width: 80%;
-  height: 150px;
   justify-content: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 40px auto;
   background-color: white;
   border: 2px solid white;
@@ -65,10 +66,9 @@ font-family: 'Devonshire', cursive;
 
 .content .container-who{
   width: 80%;
-  height: 160px;
   justify-content: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 40px auto;
   background-color: white;
   border: 2px solid white;
@@ -76,16 +76,7 @@ font-family: 'Devonshire', cursive;
   box-shadow: 3px 3px 10px #888888;
 }
 
-.content .container-info p, .content .container-mission p, .content .container-who p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 50%;
-  width: 80%;
-  font-size: 4px;
-  overflow: scroll;
-}
+
 
 .app-footer {
 flex-shrink: 0;
